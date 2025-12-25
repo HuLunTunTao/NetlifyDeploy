@@ -1,9 +1,10 @@
 {
   "name": "netlify-deploy",
   "displayName": "Netlify Deploy",
-  "description": "Upload and deploy a project to Netlify without using the CLI.",
-  "version": "0.0.1",
+  "description": "A simple plugin for uploading and redeploying Netlify projects with one click, without using the CLI.",
+  "version": "0.0.3",
   "publisher": "HuLunTunTao",
+  "icon": "media/netlify.ico",
   "license": "MIT",
   "repository": {
     "type": "git",

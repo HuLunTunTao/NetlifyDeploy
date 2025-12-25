@@ -1,0 +1,12 @@
+{
+  "command.setPAT.title": "Netlify: 设置 PAT",
+  "command.clearPAT.title": "Netlify: 清除 PAT",
+  "command.selectFolder.title": "Netlify: 选择部署目录",
+  "command.chooseSite.title": "Netlify: 选择已有站点",
+  "command.createSite.title": "Netlify: 创建新站点",
+  "command.deploy.title": "Netlify: 部署到 Netlify",
+  "command.refresh.title": "Netlify: 刷新面板",
+  "command.openSiteUrl.title": "Netlify: 打开站点链接",
+  "view.panel.name": "部署",
+  "view.welcome.panel.contents": "Netlify 部署面板\n\n- 设置 PAT: 运行 `Netlify: 设置 PAT`\n- 选择目录: 运行 `Netlify: 选择部署目录`\n- 选择或创建站点后点击部署\n"
+}

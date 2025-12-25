@@ -1,0 +1,12 @@
+{
+  "command.setPAT.title": "Netlify: Set PAT",
+  "command.clearPAT.title": "Netlify: Clear PAT",
+  "command.selectFolder.title": "Netlify: Select Deploy Folder",
+  "command.chooseSite.title": "Netlify: Choose Existing Site",
+  "command.createSite.title": "Netlify: Create New Site",
+  "command.deploy.title": "Netlify: Deploy to Netlify",
+  "command.refresh.title": "Netlify: Refresh Panel",
+  "command.openSiteUrl.title": "Netlify: Open Site URL",
+  "view.panel.name": "Deploy",
+  "view.welcome.panel.contents": "Netlify Deploy Panel\n\n- Set PAT: run `Netlify: Set PAT`\n- Select folder: run `Netlify: Select Deploy Folder`\n- Choose or create site then deploy\n"
+}

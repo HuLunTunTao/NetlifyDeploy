@@ -1,0 +1,85 @@
+{
+  "name": "netlify-deploy",
+  "displayName": "Netlify Deploy",
+  "description": "Upload and deploy a project to Netlify without using the CLI.",
+  "version": "0.0.1",
+  "publisher": "HuLunTunTao",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:netlifyDeploy.panel",
+    "onCommand:netlifyDeploy.setPAT",
+    "onCommand:netlifyDeploy.clearPAT",
+    "onCommand:netlifyDeploy.selectFolder",
+    "onCommand:netlifyDeploy.chooseSite",
+    "onCommand:netlifyDeploy.createSite",
+    "onCommand:netlifyDeploy.deploy",
+    "onCommand:netlifyDeploy.refresh",
+    "onCommand:netlifyDeploy.openSiteUrl"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "netlifyDeploy.setPAT",
+        "title": "%command.setPAT.title%"
+      },
+      {
+        "command": "netlifyDeploy.clearPAT",
+        "title": "%command.clearPAT.title%"
+      },
+      {
+        "command": "netlifyDeploy.selectFolder",
+        "title": "%command.selectFolder.title%"
+      },
+      {
+        "command": "netlifyDeploy.chooseSite",
+        "title": "%command.chooseSite.title%"
+      },
+      {
+        "command": "netlifyDeploy.createSite",
+        "title": "%command.createSite.title%"
+      },
+      {
+        "command": "netlifyDeploy.deploy",
+        "title": "%command.deploy.title%"
+      },
+      {
+        "command": "netlifyDeploy.refresh",
+        "title": "%command.refresh.title%"
+      },
+      {
+        "command": "netlifyDeploy.openSiteUrl",
+        "title": "%command.openSiteUrl.title%"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "netlifyDeploy",
+          "title": "Netlify",
+          "icon": "media/netlify.svg"
+        }
+      ]
+    },
+    "views": {
+      "netlifyDeploy": [
+        {
+          "id": "netlifyDeploy.panel",
+          "name": "%view.panel.name%"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "netlifyDeploy.panel",
+        "contents": "%view.welcome.panel.contents%",
+        "group": "netlifyDeploy"
+      }
+    ]
+  }
+}

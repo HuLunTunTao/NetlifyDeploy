@@ -4,11 +4,26 @@
   "description": "Upload and deploy a project to Netlify without using the CLI.",
   "version": "0.0.1",
   "publisher": "HuLunTunTao",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HuLunTunTao/NetlifyDeploy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HuLunTunTao/NetlifyDeploy/issues"
+  },
+  "homepage": "https://github.com/HuLunTunTao/NetlifyDeploy#readme",
   "engines": {
     "vscode": "^1.70.0"
   },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "netlify",
+    "deploy",
+    "static",
+    "hosting"
   ],
   "activationEvents": [
     "onView:netlifyDeploy.panel",

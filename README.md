@@ -1,6 +1,6 @@
 # Netlify Deploy (VS Code Extension)
 
-Upload and deploy a static project to Netlify without using the CLI.
+A simple plugin for uploading and redeploying Netlify projects with one click, without using the CLI.
 
 ## Features
 - PAT-based authentication stored in VS Code SecretStorage.
@@ -20,6 +20,10 @@ Upload and deploy a static project to Netlify without using the CLI.
 3. Run **Netlify: Select Deploy Folder**.
 4. Run **Netlify: Choose Existing Site** or **Netlify: Create New Site**.
 5. Run **Netlify: Deploy to Netlify**.
+
+## Screenshots
+![English Netlify Deploy panel](docs/screenshot_in_en.png)
+![中文界面](docs/screenshot_in_zh-cn.png)
 
 ## Commands
 - Netlify: Set PAT
